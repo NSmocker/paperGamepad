@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="CoffinDancePlayGround" size="0.300000 0.231818"/>
+        <ImageTarget name="ItemGrabber" size="0.100000 0.100000"/>
+        <ImageTarget name="RGamepad" size="0.300000 0.300000"/>
+        <ImageTarget name="LeftHand" size="0.300000 0.300000"/>
+        <ImageTarget name="LeftHandTracker.Right" size="0.150000 0.150000"/>
+        <ImageTarget name="LeftHandTracker.Back" size="0.150000 0.150000"/>
+        <ImageTarget name="LeftHandTracker.Bottom" size="0.150000 0.150000"/>
+        <ImageTarget name="LeftHandTracker.Left" size="0.150000 0.150000"/>
+        <ImageTarget name="LeftHandTracker.Top" size="0.150000 0.150000"/>
+        <ImageTarget name="LeftHandTracker.Front" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Right" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Back" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Bottom" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Left" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Top" size="0.150000 0.150000"/>
+        <ImageTarget name="RightHandTracker.Front" size="0.150000 0.150000"/>
+        <MultiTarget name="LeftHandTracker">
+            <Part name="LeftHandTracker.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="LeftHandTracker.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="LeftHandTracker.Front" translation="0 0 0.07500000298023224" rotation="AD: 1 0 0 0"/>
+            <Part name="LeftHandTracker.Back" translation="0 0 -0.07500000298023224" rotation="AD: 0 1 0 180"/>
+            <Part name="LeftHandTracker.Top" translation="0 0.07500000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="LeftHandTracker.Bottom" translation="0 -0.07500000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="RightHandTracker">
+            <Part name="RightHandTracker.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="RightHandTracker.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="RightHandTracker.Front" translation="0 0 0.07500000298023224" rotation="AD: 1 0 0 0"/>
+            <Part name="RightHandTracker.Back" translation="0 0 -0.07500000298023224" rotation="AD: 0 1 0 180"/>
+            <Part name="RightHandTracker.Top" translation="0 0.07500000298023224 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="RightHandTracker.Bottom" translation="0 -0.07500000298023224 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
